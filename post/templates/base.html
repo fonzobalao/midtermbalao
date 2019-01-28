@@ -1,0 +1,18 @@
+<html>
+  <head>
+      <title>
+        {% block head %}
+          Title
+        {% endblock %}
+      </title>
+
+      {% load static %}
+
+      <link rel="stylesheet" type="text/css" href="{ % static 'post/css/bootstrap.min.css' %}">
+  </head>
+  <body>
+    {% block body %}
+      
+    {% endblock %}
+  </body>
+</html>
